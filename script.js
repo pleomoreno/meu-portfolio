@@ -20,40 +20,34 @@ const SKILLS = [
 
 const PROJECTS = [
   {
-    title: "Bank API (FastAPI)",
-    desc: "API bancária com POO, entidades e repositório. Endpoints seguros e testes básicos.",
+    title: "DevBank Front-End",
+    desc: "Front-end web para sistema bancário, com UI interativa integrada ao back-end.",
+    stack: ["JavaScript", "HTML", "CSS"],
+    url: "https://github.com/Maua-Dev/devbank_leonardoesantiago_front",
+  },
+  {
+    title: "DevBank Back-End",
+    desc: "Implementação back-end com Python, gerenciando operações bancárias e transações via API.",
     stack: ["Python", "FastAPI", "SQL"],
-    url: "https://github.com/pleomoreno",
+    url: "https://github.com/Maua-Dev/devbank_leomoreno",
   },
   {
-    title: "Quiz Game (Pygame)",
-    desc: "Jogo de quiz com dicas, pulo e eliminar — interface e lógica orientada a objetos.",
+    title: "Portal Interno DevCommunity",
+    desc: "Portal interno da entidade DevCommunity do IMT. Participo no back-end, adicionando features e corrigindo bugs.",
+    stack: ["Python", "FastAPI", "SQL"],
+    url: "https://github.com/Maua-Dev/port_mss_action",
+  },
+  {
+    title: "Rokuzen Project (Em Desenvolvimento)",
+    desc: "Projeto front-end em desenvolvimento, mostrando integração avançada de JS, CSS e HTML.",
+    stack: ["JavaScript", "HTML", "CSS"],
+    url: "https://github.com/pleomoreno/projeto-rokuzen",
+  },
+  {
+    title: "Millionaire Trivia Game",
+    desc: "Jogo em Python com Pygame, estrutura modular orientada a objetos e perguntas interativas.",
     stack: ["Python", "Pygame"],
-    url: "https://github.com/pleomoreno",
-  },
-  {
-    title: "Site Portfólio",
-    desc: "Esta página! Design minimalista, responsivo e acessível.",
-    stack: ["React", "Tailwind"],
-    url: "https://github.com/pleomoreno",
-  },
-  {
-    title: "CRUD Hospital (SQL)",
-    desc: "Modelo de dados hospitalar, criação de tabelas e operações CRUD.",
-    stack: ["SQL", "Python"],
-    url: "https://github.com/pleomoreno",
-  },
-  {
-    title: "Mini Blog (Java)",
-    desc: "API REST em Java com camadas, serviços e repositórios mocks.",
-    stack: ["Java"],
-    url: "https://github.com/pleomoreno",
-  },
-  {
-    title: "ETEC Labs Scheduler",
-    desc: "Prova de conceito para agendamento de laboratórios de Química.",
-    stack: ["JS", "HTML", "CSS"],
-    url: "https://github.com/pleomoreno",
+    url: "https://github.com/pleomoreno/Jogo_do_Milhao",
   },
 ];
 
@@ -91,7 +85,6 @@ function Button(
   }
   return `<button class="${baseClasses} ${classNames}">${content}</button>`;
 }
-
 
 function renderPortfolio() {
   const app = document.getElementById("app");
@@ -359,7 +352,6 @@ function renderPortfolio() {
 
   renderProjectsAndAnimate();
 }
-
 
 function renderProjectsAndAnimate() {
   const projectsContainer = document.getElementById("projects-container");
