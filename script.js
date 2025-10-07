@@ -1,5 +1,3 @@
-// script.js
-
 const PROFILE = {
   name: "Leonardo Alves Moreno",
   role: "Desenvolvedor Backend & Web",
