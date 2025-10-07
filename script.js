@@ -107,7 +107,7 @@ const DICTIONARY = {
 			contact_title: "Vamos conversar",
 			contact_p:
 					"Curtiu o que viu? Me chama para conversar sobre oportunidades, freelas ou collabs.",
-			cv_title: "Resumo (CV)",
+			cv_title: "Meu currículo",
 			cv_p: "Quer meu currículo em PDF?",
 			cv_button: "Baixar PDF",
 			footer_copy: "Todos os direitos reservados.",
@@ -169,7 +169,7 @@ const DICTIONARY = {
 			contact_title: "Hablemos",
 			contact_p:
 					"¿Te gustó lo que viste? Contáctame para hablar sobre oportunidades, trabajos independientes o colaboraciones.",
-			cv_title: "Resumen (CV)",
+			cv_title: "Mi currículum",
 			cv_p: "¿Quieres mi currículum en PDF?",
 			cv_button: "Descargar PDF",
 			footer_copy: "Todos los derechos reservados.",
